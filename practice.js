@@ -89,3 +89,9 @@ function find_index(arr, str) {
 		return arr.indexOf(str);
 	}
 }
+
+// Create a function that takes an array of numbers and
+// returns the smallest number in the set
+function findSmallestNum(arr) {
+	return Math.min.apply( Math, arr );
+}
