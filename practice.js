@@ -32,3 +32,8 @@ function isEvenOrOdd(num) {
 function findDigitAmount(num) {
   return num.toString().length;
 }
+
+// Find largest number in an array
+function findLargestNum(arr) {
+  return Math.max.apply(Math, arr);
+}
