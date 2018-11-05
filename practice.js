@@ -81,3 +81,11 @@ function month_name(num) {
 		return null;
 	}
 }
+
+// Create a function that takes an array and a string as arguments and
+// return the index of the string
+function find_index(arr, str) {
+	for (let i = 0; i <= arr.length; i++) {
+		return arr.indexOf(str);
+	}
+}
