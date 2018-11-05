@@ -27,3 +27,8 @@ function isEvenOrOdd(num) {
     return "odd";
   }
 }
+
+// Return number of digits
+function findDigitAmount(num) {
+  return num.toString().length;
+}
