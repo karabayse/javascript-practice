@@ -10,3 +10,10 @@ function simpleArraySum(arr) {
     return a + b;
   }, 0);
 }
+
+// Create a function that takes a base number and exponent number
+// and returns the value
+function calculateExponent(num, exp) {
+  let calc = Math.pow(num, exp);
+  return calc;
+}
