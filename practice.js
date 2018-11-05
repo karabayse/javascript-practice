@@ -17,3 +17,13 @@ function calculateExponent(num, exp) {
   let calc = Math.pow(num, exp);
   return calc;
 }
+
+// Return "even" or "odd"
+function isEvenOrOdd(num) {
+  if (num % 2 === 0) {
+    return "even";
+  }
+  else {
+    return "odd";
+  }
+}
