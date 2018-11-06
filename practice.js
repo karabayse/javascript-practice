@@ -95,3 +95,9 @@ function find_index(arr, str) {
 function findSmallestNum(arr) {
 	return Math.min.apply( Math, arr );
 }
+
+// Create a function that takes a string as its argument and
+// returns the string in reversed order.
+function reverse(str) {
+	return str.split("").reverse().join("");
+}
