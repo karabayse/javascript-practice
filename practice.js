@@ -1,3 +1,4 @@
+// RETURN THE SUM OF TWO NUMBERS
 function returnSum(a, b) {
   return (a + b);
 }
@@ -114,4 +115,22 @@ function Go(num) {
 	for (i = 0; i <= 60; i++) {
 		return '-'.repeat(num);
 	}
+}
+
+// Create a function to multiply all values in an array
+// by the amount of values in that array
+function MultiplyByLength(arr) {
+	let multiplyArr = [];
+	for (i = 0; i < arr.length; i++) {
+
+	}
+}
+
+// FLIP THE BOOLEAN
+// Create a function that reverses a boolean value and
+// returns the string "boolean expected" if another variable type is given
+function reverse(bool) {
+	if (typeof bool !== 'boolean')
+  return "boolean expected";
+	else return !bool;
 }
