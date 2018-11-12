@@ -117,6 +117,16 @@ function Go(num) {
 	}
 }
 
+// FLIP THE BOOLEAN
+// Create a function that reverses a boolean value and
+// returns the string "boolean expected" if another variable type is given
+function reverse(bool) {
+	if (typeof bool !== 'boolean')
+  return "boolean expected";
+	else return !bool;
+}
+
+// MULTIPLY BY LENGTH
 // Create a function to multiply all values in an array
 // by the amount of values in that array
 function MultiplyByLength(arr) {
@@ -126,11 +136,10 @@ function MultiplyByLength(arr) {
 	}
 }
 
-// FLIP THE BOOLEAN
-// Create a function that reverses a boolean value and
-// returns the string "boolean expected" if another variable type is given
-function reverse(bool) {
-	if (typeof bool !== 'boolean')
-  return "boolean expected";
-	else return !bool;
+// SHUFFLE THE NAME
+// Create a function that accepts a string (first and last name) and
+// returns a string with the first and last name swapped
+function nameShuffle(str) {
+  let shuffleStr = str.split().reverse();
+  return shuffleStr
 }
